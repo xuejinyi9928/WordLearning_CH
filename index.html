@@ -289,7 +289,7 @@
                 <p>幻词-非词：准确率 ${(pn_acc*100).toFixed(2)}%，平均信心 ${pn_conf.toFixed(2)}</p>
             `;
         },
-        choices: ['<div style="font-size:26px;">结束实验</div>'],
+        choices: ['<div style="font-size:26px;">退出全屏并保存数据</div>'],
         on_start: function() {
             document.body.classList.remove('no-cursor');
         },
